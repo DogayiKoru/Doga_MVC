@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Content\css\style.css" />
     <Content Include="Content\images\americanexpress.jpg" />
+    <Content Include="Content\images\Aras-Kargo.jpg" />
     <Content Include="Content\images\cam.png" />
     <Content Include="Content\images\dhl.jpg" />
     <Content Include="Content\images\family_guy.png" />
@@ -103,8 +104,11 @@
     <Content Include="Content\images\payoneer.jpg" />
     <Content Include="Content\images\pil.png" />
     <Content Include="Content\images\plastik.png" />
+    <Content Include="Content\images\pttkargo.jpg" />
     <Content Include="Content\images\skrill.jpg" />
     <Content Include="Content\images\ups.jpg" />
+    <Content Include="Content\images\yurtici-kargo-logo.jpg" />
+    <Content Include="Content\images\yurticikargo.png" />
     <Content Include="Content\index.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
