@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "_LayoutGuest";
+    Layout = "~/Views/Shared/_LayoutHF.cshtml";
+}
+
+
+
+@section UyeveyaGiris{
+    <div style="margin-top:10px; margin-right:5px; width:100px; height:20px; background-color:black; font:8px; float:right;">
+    <a style="color:yellow;" href="/SignUp/SignUp">UyeOl</a>&nbsp;&nbsp;<a style="color:yellow;" href="/Login/Login">GirisYap</a>
+    
+</div>
+    
+    }
+            
+            
+        @RenderSection("leftside", false)
+        @RenderSection("rightside", false)
+        @RenderSection("SayfaIcerik", false)
+        @RenderSection("Hakkinda", false)
+        @RenderSection("Iletisim",false)
+        
+        
+
+
+

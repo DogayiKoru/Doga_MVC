@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_LayoutGuest.cshtml";
+}
+
+@section Iletisim{
+    <div style="width:1000px; height:750px; background: none repeat scroll 0% 0% rgb(227, 227, 227);">
+    <h1 style="text-align:left;">İletişim</h1><br /><br /><br />
+        <div style="width:500px; height:300px; text-align:left;">
+            <form name="email" enctype="text/plain" action="mailto:dogayikoru@email.com?subject='Siteden Email'">
+                <table>
+
+                    <tr>
+                        <td>Ad Soyad</td>
+                        <td>:<input type="text" name="ad" required="required" autofocus="autofocus" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:<input type="email" name="email" required="required" /></td>
+
+                    </tr>
+                    <tr>
+                        <td>İleti</td>
+                        <td>:<textarea name="ileti" rows="4" cols="50" required="required"></textarea></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Gönder" /></td>
+                        <td><input type="reset" value="İptal" /></td>
+
+                    </tr>
+
+                </table>
+
+            </form>
+            <br /><br /><br />
+            <p style="font-size:20px;"><b>Adres: Yenidoğan Mah. Bora Sok. Talas/KAYSERİ</b></p>
+            <p style="font-size:20px;"><b>Tel: 05379999999</b></p>
+            <p style="font-size:20px;"><b>Facebook Page: facebook.com/dogayikoru</b></p>
+        </div>
+    </div>
+    }
+
+

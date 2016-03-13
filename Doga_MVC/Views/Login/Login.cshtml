@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutHF.cshtml";
+}
+
+@section GirisYap{
+    
+    <div style="width:1000px; height:750px; background: none repeat scroll 0% 0% rgb(227, 227, 227);">
+    <h1 style="text-align:left;">Giriş Yap</h1><br /><br /><br />
+    <div style="width:500px; height:300px; text-align:left;">
+        <form name="email" enctype="text/plain" action="mailto:dogayikoru@email.com?subject='Siteden Email'">
+            <table>
+
+                <tr>
+                    <td>Kullanıcı Adı</td>
+                    <td>:<input type="text" name="kullaniciadi" required="required" autofocus="autofocus" /></td>
+
+                </tr>
+                <tr>
+                    <td>Parola</td>
+                    <td>:<input type="password" name="password" required="required" /></td>
+
+                </tr>
+               
+                <tr>
+                    <td></td>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Giriş Yap" /><input type="reset" value="Vazgeç" /></td>
+                    
+
+                </tr>
+
+            </table>
+
+        </form>
+        
+    </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+

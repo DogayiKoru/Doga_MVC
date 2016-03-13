@@ -1,0 +1,101 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_LayoutHF.cshtml";
+}
+@section UyeOl{
+    <div style="width:1000px; height:750px; background: none repeat scroll 0% 0% rgb(227, 227, 227);">
+    <h1 style="text-align:left;">Kayıt Formu</h1><br /><br /><br />
+    <div style="width:1000px; height:600px; text-align:left;">
+        <form name="email" enctype="text/plain" action="mailto:dogayikoru@email.com?subject='Siteden Email'">
+            <table>
+
+                <tr>
+                    <td>Ad</td>
+                    <td>:<input type="text" name="ad" required="required" autofocus="autofocus" /></td>
+                </tr>
+                <tr>
+                    <td>Soyad</td>
+                    <td>:<input type="text" name="soyad" required="required" autofocus="autofocus" /></td>
+                </tr>
+
+                <tr>
+                    <td>Kullanıcı Adı</td>
+                    <td>:<input type="text" name="kullaniciadi" required="required" autofocus="autofocus" /></td>
+                </tr>
+
+                <tr>
+                    <td>Parola</td>
+                    <td>:<input type="password" name="password" required="required" autofocus="autofocus" /></td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password</td>
+                    <td>:<input type="password" name="conpassword" required="required" autofocus="autofocus" /></td>
+                </tr>
+                
+                <tr>
+                    <td>Email</td>
+                    <td>:<input type="email" name="email" required="required" /></td>
+
+                </tr>
+
+                <tr>
+                    
+                    <td>Doğum Yeri</td>
+                       <td>:<select name="il" size="1">
+                        <option>İstanbul</option>
+                            <option>Ankara</option>
+                            <option>Kaman(asil insanlar)</option>
+                            <option>İzmir</option>
+                            <option>Bor(Niğde değil dikkat çekerim)</option>
+                            <option>Kayseri</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                <td>Adres</td>
+                <td>:<textarea name="adres" rows="4" cols="50" required="required"></textarea></td>
+
+                </tr>
+                
+                <tr>
+                    <td><input type="radio" name="hangitur" checked="checked" />Bireysel</td>
+                    <td><input type="radio" name="hangitur" />Kurumsal</td>
+                </tr>
+
+
+                <tr>
+                    <td>TC Kimlik No</td>
+                    <td>:<input type="text" name="tcno" required="required" autofocus="autofocus" /></td>
+                </tr>
+
+                <tr>
+                    <td>Vergi No</td>
+                    <td>:<input type="text" name="tcno" required="required" autofocus="autofocus" /></td>
+                </tr>
+               
+                 <tr>
+                     <td></td>
+                    <td><input type="checkbox" name="sozlesme" value="evet" />Sözleşmedeki şartları kabul ediyorum</td>
+
+                </tr>
+
+                 <tr>
+                     <td></td>
+                    <td><input type="submit" value="Kayıt Ol" /><input type="reset" value="Vazgeç" /></td>
+                    
+
+                </tr>
+
+                
+
+            </table>
+
+        </form>
+    </div>
+        </div>
+}
+
+
