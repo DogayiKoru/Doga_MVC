@@ -204,6 +204,7 @@ a:visited {
 	height: auto;
 	overflow: hidden;
 	clear: both;
+    margin-top:10px;
 }
 
 #Shipping h2 {
@@ -357,6 +358,7 @@ a:visited {
 .images img {
 	background-position: center;
 	background-repeat: no-repeat;
+    width:196px;
 }
 
 .product_container h3 {
