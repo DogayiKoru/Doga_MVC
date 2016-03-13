@@ -97,6 +97,12 @@
     <Content Include="Content\images\family_guy.png" />
     <Content Include="Content\images\fedex.jpg" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\market\1ltYudumYag.png" />
+    <Content Include="Content\images\market\a4kagit.jpg" />
+    <Content Include="Content\images\market\A4teksir.jpeg" />
+    <Content Include="Content\images\market\CopKutusuKagit.png" />
+    <Content Include="Content\images\market\CopKutusuMetal.png" />
+    <Content Include="Content\images\market\CopKutusuPlastik.png" />
     <Content Include="Content\images\mastercard.jpg" />
     <Content Include="Content\images\metal.png" />
     <Content Include="Content\images\navbg.jpg" />
@@ -134,7 +140,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\SignUp\SignUp.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
-    <Content Include="Views\Market\MarketIndex.cshtml" />
+    <Content Include="Views\Market\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -356,9 +356,11 @@ a:visited {
 .product_container {
 	float: left;
 	width: 196px;
-	height: auto;
+    min-height:350px;
 	margin: 10px;
 	padding: 5px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .images {
@@ -373,6 +375,11 @@ a:visited {
 	background-position: center;
 	background-repeat: no-repeat;
     width:196px;
+}
+
+#add_box {
+    margin-top: 5px;
+    height: 25px;
 }
 
 .product_container h3 {
