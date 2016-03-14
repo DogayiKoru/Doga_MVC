@@ -63,3 +63,4 @@ D:\Projects\Source\Repos\Doga_MVC\Doga_MVC\bin\System.Web.Mvc.xml
 D:\Projects\Source\Repos\Doga_MVC\Doga_MVC\obj\Debug\Doga_MVC.dll
 D:\Projects\Source\Repos\Doga_MVC\Doga_MVC\obj\Debug\Doga_MVC.pdb
 D:\Projects\Source\Repos\Doga_MVC\Doga_MVC\obj\Debug\Doga_MVC.csprojResolveAssemblyReference.cache
+D:\Projects\Source\Repos\Doga_MVC\Doga_MVC\bin\Microsoft.Web.Infrastructure.dll
