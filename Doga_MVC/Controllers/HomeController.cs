@@ -11,6 +11,7 @@ namespace Doga_MVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            //push deneme
             return View();
         }
 
