@@ -90,6 +90,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\icons\basket.png" />
+    <Content Include="Content\icons\basket2.png" />
+    <Content Include="Content\icons\messages.png" />
+    <Content Include="Content\icons\notification.png" />
+    <Content Include="Content\icons\profile.png" />
+    <Content Include="Content\icons\profile2.png" />
+    <Content Include="Content\icons\settings.png" />
     <Content Include="Content\images\americanexpress.jpg" />
     <Content Include="Content\images\Aras-Kargo.jpg" />
     <Content Include="Content\images\cam.png" />
@@ -141,6 +148,8 @@
     <Content Include="Views\SignUp\SignUp.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Market\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutAfterLogin.cshtml" />
+    <Content Include="Views\Home\AfterLoginIndex.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

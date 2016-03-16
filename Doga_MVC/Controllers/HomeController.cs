@@ -24,5 +24,10 @@ namespace Doga_MVC.Controllers
         {
             return View();
         }
+
+        public ActionResult AfterLoginIndex()
+        {
+            return View();
+        }
     }
 }
