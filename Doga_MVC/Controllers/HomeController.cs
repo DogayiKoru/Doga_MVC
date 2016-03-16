@@ -11,6 +11,7 @@ namespace Doga_MVC.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            //push deneme
             return View();
         }
 
@@ -20,6 +21,11 @@ namespace Doga_MVC.Controllers
         }
 
         public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ActionResult AfterLoginIndex()
         {
             return View();
         }

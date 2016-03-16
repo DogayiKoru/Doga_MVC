@@ -1,0 +1,33 @@
+﻿
+
+@{
+    Layout = "~/Views/Shared/_LayoutHF.cshtml";
+}
+
+@section Title{
+
+    @RenderSection("Title", false)
+
+}
+
+@section AfterLoginUstPanelBireysel{
+
+    <div id="icons" style="margin-right:2px; width:300px; height:100px; float:right;">
+
+        <p style="margin-top:48px; text-align:center; background-color:black;color:yellow;">Hoşgeldiniz Burak ARSLAN</p>
+
+
+        <div style="background-color:darkorange;">
+            <img style="width:30px;" src="~/Content/icons/settings.png" />
+            <img style="width:30px;" src="~/Content/icons/basket.png" />
+            <img style="width:30px;" src="~/Content/icons/messages.png" />
+            <img style="width:30px;" src="~/Content/icons/notification.png" />
+            <img style="width:30px;" src="~/Content/icons/profile2.png" />
+        </div>
+
+    </div>
+
+
+}
+@RenderBody()
+
